@@ -1,0 +1,3 @@
+This file will appear as if it was commited to main before rebase-file-main.
+This is due to the fact that this brancgh will be rebased into main thereby altering the commit history of main
+This makes it seem as if this file was commited directly to main before the rebase-file-main was ever commited
