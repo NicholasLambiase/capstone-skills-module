@@ -1,0 +1,27 @@
+This will be the read me file.
+
+In this case I would like to leave a note about branching conventions.
+It is best practice to have a written convention for how your repo implements branches so that developers working in the same repo can best avoid collisions.
+
+## Branching Strategies
+
+---
+
+We will be using the State, Release, and Features Branches approach
+We will have Long and Short running branches
+
+Long examples: main branch, development branch
+Short examples: feature branch
+
+In this model there are no direct commits to long running branches. Only merges and rebases.
+
+#### GitHub Flow
+
+very simple and lean. One long branch plus feature branches
+
+#### GitFlow
+
+Main branch is a reflection of production
+Development is the other long branch and has short branched off of it for features. Once we are confident in that release branch we merge it back to Production
+
+## Pull Requests
